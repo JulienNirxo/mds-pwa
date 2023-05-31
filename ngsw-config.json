@@ -9,7 +9,6 @@
         "files": [
           "/favicon.ico",
           "/index.html",
-          "/manifest.webmanifest",
           "/*.css",
           "/*.js"
         ]
@@ -21,10 +20,27 @@
       "updateMode": "prefetch",
       "resources": {
         "files": [
-          "/assets/**",
-          "/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+          "/assets/**"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "pwa",
+      "urls": [
+        "/index.html",
+        "/",
+        "/assets/**",
+        "/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
+      ],
+      "cacheConfig": {
+        "strategy": "freshness",
+        "maxSize": 100,
+        "maxAge": "3d",
+        "timeout": "10s"
       }
     }
   ]
 }
+
