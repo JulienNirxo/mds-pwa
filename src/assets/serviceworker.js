@@ -1,6 +1,6 @@
 self.addEventListener('install', function (e) {
     console.log('[ServiceWorker] Install');
-    event.waitUntil(
+    e.waitUntil(
         caches.open(cacheName).then(function (cache) {
             return cache.addAll("./");
         }
@@ -21,3 +21,9 @@ self.addEventListener('fetch', function (e) {
 }
 );
 
+self.addEventListener('message', function (e) {
+    console.log("push", e.data);
+    if (e.data === 'skipWaiting') {
+        self.skipWaiting();
+    }
+});
