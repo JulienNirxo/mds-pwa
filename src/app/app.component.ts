@@ -9,7 +9,7 @@ const VAPID_PUBLIC = 'BPIf3btGAP3Sq2f-4S0WS2DtbCSnbFbtYGA_6c6nNZ_DsIaCLMFu1fxO30
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'angular-push-notifications'
+  title = 'angular'
 
   constructor(swPush: SwPush) {
     if (swPush.isEnabled) {
@@ -19,8 +19,22 @@ export class AppComponent {
         })
         .then(subscription => {
           console.log(subscription)
+          this.showPushNotification()
         })
         .catch(console.error)
     }
   }
+
+  showPushNotification() {
+    if (window.Notification && Notification.permission !== "denied") {
+        Notification.requestPermission(function(status) {
+            var n = new Notification("Ma notification", {
+                body: "Salut MDS !",
+            });
+        });
+    }
+
+}
+
+
 }
