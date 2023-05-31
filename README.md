@@ -18,7 +18,7 @@
 -> Possibilité de télécharger dans chrome l'application dans trois petits points > Ajouter à l'écran d'accueil.  
 
 # Test service worker
--> Aller dans inspecter > Application.
+-> Aller dans inspecter > Application.  
 -> On peut voir dans le Manifest que l'on a du contenu.  
 -> On peut voir dans Service Workers que c'est activé.  
 -> Dans le Cache Storage, on vois le contenu du cache.  
