@@ -25,6 +25,6 @@
 -> Quand on va dans Newtwork et qu'on se met en offline et que l'on recharge, la page est toujours là.  
 
 # Test run APK 
--> Pré-recquis : avoir android studio.
--> Sur android studio, se placer sur le dossier "android" OU faire la commande "npx cap open android" dans le cmd à la racine du projet.
--> Run le projet dans android studio en branchant son téléphone en USB.
+-> Pré-recquis : avoir android studio. 
+-> Sur android studio, se placer sur le dossier "android" OU faire la commande "npx cap open android" dans le cmd à la racine du projet. 
+-> Run le projet dans android studio en branchant son téléphone en USB. 
