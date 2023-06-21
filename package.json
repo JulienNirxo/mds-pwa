@@ -7,7 +7,9 @@
     "startPWA": "http-server -p 8080 -c-1 dist/pwa",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run start"
   },
   "private": true,
   "dependencies": {
@@ -20,6 +22,10 @@
     "@angular/platform-browser-dynamic": "^16.0.0",
     "@angular/router": "^16.0.0",
     "@angular/service-worker": "^16.0.0",
+    "@capacitor/android": "^5.0.5",
+    "@capacitor/angular": "^2.0.3",
+    "@capacitor/core": "latest",
+    "@capacitor/ios": "^5.0.5",
     "http-server": "^14.1.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -29,6 +35,7 @@
     "@angular-devkit/build-angular": "^16.0.3",
     "@angular/cli": "~16.0.3",
     "@angular/compiler-cli": "^16.0.0",
+    "@capacitor/cli": "latest",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",

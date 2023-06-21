@@ -8,7 +8,7 @@
 
 # Démarrer le projet en web
 -> Bien penser à faire la commande ng build.  
--> Pour lancer le projet, faire la commabde "npm run startPWA" et aller à l'url "http://127.0.0.1:8080/".  
+-> Pour lancer le projet, faire la commande "npm run startPWA" et aller à l'url "http://127.0.0.1:8080/".  
 
 # Démarrer le projet en version mobile
 -> Votre téléphone et le pc qui démarre le projet doivent être sur le même réseau wifi.  
