@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "147791131777",
+    "project_id": "mds-aws-977c1",
+    "storage_bucket": "mds-aws-977c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:147791131777:android:d1e159b383a50635c58980",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "147791131777-2jieabcpb1hhi4gp2on65grpjsmhdf2u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnuT95y1z8o1mH5A8IWHlWpe0Z06C9O90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "147791131777-2jieabcpb1hhi4gp2on65grpjsmhdf2u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
