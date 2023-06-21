@@ -28,3 +28,9 @@
 -> Pré-recquis : avoir android studio.  
 -> Sur android studio, se placer sur le dossier "android" OU faire la commande "npx cap open android" dans le cmd à la racine du projet.  
 -> Run le projet dans android studio en branchant son téléphone en USB.  
+
+# Test fonction native
+-> Pour tester les fonctionnalités natives, il faut faire la commande "npx cap open android" dans le cmd à la racine du projet.  
+-> Lancer l'application sur le téléphone.  
+-> Prendre une photo d'un objet.  
+-> Vous aurez l'image et les coordonnées GPS de où vous avez pris la photo.  
